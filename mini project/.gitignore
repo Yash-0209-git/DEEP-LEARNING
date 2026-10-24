@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Dataset (large — do not commit)
+data/raw/
+data/processed/
+
+# Model checkpoints (large binary files — do not commit to git)
+models/checkpoints/
+# Keep the legacy baseline for reference if small enough
+# models/baseline_cnn.pth
+
+# Training outputs (evaluation charts and metrics are tracked for project documentation)
+# outputs/eval_fcn/
+# outputs/eval_unet/
+# outputs/fcn_history.json
+# outputs/unet_history.json
+# outputs/comparison_bar.png
+# outputs/comparison_table.md
+# outputs/audit/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Pytest
+.pytest_cache/
+*.pytest_cache
+
+# Streamlit
+.streamlit/
+
+# Logs
+*.log

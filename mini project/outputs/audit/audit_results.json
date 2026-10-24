@@ -1,0 +1,86 @@
+{
+  "splits": {
+    "train": {
+      "split": "train",
+      "total_images": 3717,
+      "total_masks": 3717,
+      "paired_images": 3717,
+      "images_missing_mask": [],
+      "masks_missing_image": [],
+      "corrupt_images": [],
+      "corrupt_masks": [],
+      "dim_mismatch": [],
+      "wrong_img_dims": [],
+      "wrong_mask_dims": [],
+      "unexpected_mask_values": [],
+      "empty_masks": [],
+      "high_coverage_masks": [],
+      "crack_stats": {
+        "mean_pct": 2.165,
+        "std_pct": 1.386,
+        "min_pct": 0.348,
+        "max_pct": 10.914,
+        "median_pct": 1.809,
+        "pct_empty": 0.0
+      }
+    },
+    "val": {
+      "split": "val",
+      "total_images": 200,
+      "total_masks": 200,
+      "paired_images": 200,
+      "images_missing_mask": [],
+      "masks_missing_image": [],
+      "corrupt_images": [],
+      "corrupt_masks": [],
+      "dim_mismatch": [],
+      "wrong_img_dims": [],
+      "wrong_mask_dims": [],
+      "unexpected_mask_values": [],
+      "empty_masks": [
+        {
+          "file": "3513.rf.782300f38d0a008b3340e54b643e713e.png",
+          "crack_pct": 0.0
+        }
+      ],
+      "high_coverage_masks": [],
+      "crack_stats": {
+        "mean_pct": 2.026,
+        "std_pct": 1.241,
+        "min_pct": 0.0,
+        "max_pct": 6.912,
+        "median_pct": 1.677,
+        "pct_empty": 0.5
+      }
+    },
+    "test": {
+      "split": "test",
+      "total_images": 111,
+      "total_masks": 111,
+      "paired_images": 111,
+      "images_missing_mask": [],
+      "masks_missing_image": [],
+      "corrupt_images": [],
+      "corrupt_masks": [],
+      "dim_mismatch": [],
+      "wrong_img_dims": [],
+      "wrong_mask_dims": [],
+      "unexpected_mask_values": [],
+      "empty_masks": [],
+      "high_coverage_masks": [],
+      "crack_stats": {
+        "mean_pct": 1.977,
+        "std_pct": 1.184,
+        "min_pct": 0.355,
+        "max_pct": 5.82,
+        "median_pct": 1.632,
+        "pct_empty": 0.0
+      }
+    }
+  },
+  "cross_split_duplicates": {
+    "total_stems_checked": 4028,
+    "duplicate_count": 0,
+    "duplicates": {}
+  }
+}
