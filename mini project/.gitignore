@@ -32,6 +32,9 @@ models/checkpoints/
 # outputs/comparison_table.md
 # outputs/audit/
 
+# Reports
+reports/
+
 # Jupyter
 .ipynb_checkpoints/
 *.ipynb
